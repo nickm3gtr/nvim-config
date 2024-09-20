@@ -239,6 +239,7 @@ M.search_current = function()
         prompt_title = "< . >",
         hidden = true,
         find_command = { "fd", "--ignore-file", vim.fn.expand("$HOME/.config/ignore/vim-ignore"), "-t", "f", "-H" },
+        no_ignore = true,
     })
 end
 

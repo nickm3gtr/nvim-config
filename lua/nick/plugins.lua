@@ -17,6 +17,7 @@ return {
   },
   { "catppuccin/nvim"},
   {'navarasu/onedark.nvim'},
+  { "rose-pine/neovim", name = "rose-pine" },
   {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'},
   {"williamboman/mason.nvim",},
   "williamboman/mason-lspconfig.nvim",
@@ -44,4 +45,5 @@ return {
   },
   {'tpope/vim-fugitive'},
   {'lewis6991/gitsigns.nvim'},
+  {'jwalton512/vim-blade'},
 }
